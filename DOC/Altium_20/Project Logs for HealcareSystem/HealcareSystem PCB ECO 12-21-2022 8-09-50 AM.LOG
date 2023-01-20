@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=VCC Pin=Mod_out+-1
+Removed Pin From Net: NetName=GND Pin=Mod_out--1
+Change Component Designator: OldDesignator=Mod_out+ NewDesignator=Mod_out-
+Change Component Designator: OldDesignator=Mod_out- NewDesignator=Mod_out+
+Added Pin To Net: NetName=VCC Pin=Mod_out+-1
+Added Pin To Net: NetName=GND Pin=Mod_out--1
+Added Room: Name=HealcareSystem

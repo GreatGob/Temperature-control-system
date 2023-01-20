@@ -1,0 +1,85 @@
+Removed Pin From Net: NetName=GND Pin=C1-2
+Removed Pin From Net: NetName=GND Pin=C2-2
+Removed Pin From Net: NetName=GND Pin=Charge-1
+Removed Pin From Net: NetName=GND Pin=Charge-2
+Removed Pin From Net: NetName=VCC Pin=Charge-3
+Removed Pin From Net: NetName=VCC Pin=Charge-4
+Removed Pin From Net: NetName=VCC Pin=heart-1
+Removed Pin From Net: NetName=GND Pin=heart-2
+Removed Pin From Net: NetName=VCC Pin=pin-1
+Removed Pin From Net: NetName=GND Pin=pin-2
+Removed Pin From Net: NetName=VCC Pin=R?-2
+Removed Pin From Net: NetName=GND Pin=SW?-2
+Removed Pin From Net: NetName=VCC Pin=Temp-1
+Removed Pin From Net: NetName=GND Pin=Temp-2
+Removed Pin From Net: NetName=VCC Pin=U0-7
+Removed Pin From Net: NetName=GND Pin=U0-22
+Removed Member From Class: ClassName=HealcareSystem Member=C1
+Removed Member From Class: ClassName=HealcareSystem Member=C2
+Removed Member From Class: ClassName=HealcareSystem Member=Charge
+Removed Member From Class: ClassName=HealcareSystem Member=crystal
+Removed Member From Class: ClassName=HealcareSystem Member=heart
+Removed Member From Class: ClassName=HealcareSystem Member=pin
+Removed Member From Class: ClassName=HealcareSystem Member=R?
+Removed Member From Class: ClassName=HealcareSystem Member=SW?
+Removed Member From Class: ClassName=HealcareSystem Member=Temp
+Removed Member From Class: ClassName=HealcareSystem Member=U0
+Change Component Comment : Designator=reset Old Comment=JP8 New Comment=ESP8266MOD
+Change Component Designator: OldDesignator=tx NewDesignator=ESP8266MOD
+Added Component: Designator=Atmega328p(Arduino Nano)
+Add component (AddParameter): Name = "Value"; Value = "Cau 1A"; VariantName = "[No Variations]"
+Added Component: Designator=CJMCU-30205(CON4)
+Add component (AddParameter): Name = "Value"; Value = "Connector 4"; VariantName = "[No Variations]"
+Added Component: Designator=MAX30100(CON4)
+Add component (AddParameter): Name = "Value"; Value = "Connector 4"; VariantName = "[No Variations]"
+Added Component: Designator=Pin+(JP1-D1T)
+Add component (AddParameter): Name = "ComponentLink1 Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2 Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/em/datasheet/6130xx143121.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created by"; Value = "Karrer Zheng"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created Date"; Value = "29 March 2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "W¨¹rth Elektronik eiSos GmbH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NoPins"; Value = "02"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "partNo"; Value = "613002143121"; VariantName = "[No Variations]"
+Added Component: Designator=Pin-(JP1-D1T)
+Add component (AddParameter): Name = "ComponentLink1 Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2 Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/em/datasheet/6130xx143121.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created by"; Value = "Karrer Zheng"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created Date"; Value = "29 March 2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "W¨¹rth Elektronik eiSos GmbH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NoPins"; Value = "02"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "partNo"; Value = "613002143121"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=CJMCU-30205-3
+Added Pin To Net: NetName=VCC Pin=CJMCU-30205-4
+Added Pin To Net: NetName=VCC Pin=MAX30100-1
+Added Pin To Net: NetName=GND Pin=MAX30100-2
+Added Pin To Net: NetName=VCC Pin=Pin+-1
+Added Pin To Net: NetName=GND Pin=Pin--1
+Added Pin To Net: NetName=NetAtmega328p_A4 Pin=Atmega328p-A4
+Added Pin To Net: NetName=NetAtmega328p_A4 Pin=CJMCU-30205-2
+Added Pin To Net: NetName=NetAtmega328p_A4 Pin=ESP8266MOD-4
+Added Pin To Net: NetName=NetAtmega328p_A4 Pin=MAX30100-4
+Added Net: Name=NetAtmega328p_A4
+Added Pin To Net: NetName=NetAtmega328p_A5 Pin=Atmega328p-A5
+Added Pin To Net: NetName=NetAtmega328p_A5 Pin=CJMCU-30205-1
+Added Pin To Net: NetName=NetAtmega328p_A5 Pin=ESP8266MOD-3
+Added Pin To Net: NetName=NetAtmega328p_A5 Pin=MAX30100-3
+Added Net: Name=NetAtmega328p_A5
+Added Pin To Net: NetName=NetAtmega328p_D8 Pin=Atmega328p-D8
+Added Pin To Net: NetName=NetAtmega328p_D8 Pin=high/low-1
+Added Net: Name=NetAtmega328p_D8
+Added Pin To Net: NetName=NetAtmega328p_RX0 Pin=Atmega328p-RX0
+Added Pin To Net: NetName=NetAtmega328p_RX0 Pin=ESP8266MOD-2
+Added Net: Name=NetAtmega328p_RX0
+Added Pin To Net: NetName=NetAtmega328p_TX1 Pin=Atmega328p-TX1
+Added Pin To Net: NetName=NetAtmega328p_TX1 Pin=ESP8266MOD-1
+Added Net: Name=NetAtmega328p_TX1
+Added Member To Class: ClassName=HealcareSystem Member=Component Atmega328p Arduino Nano
+Added Member To Class: ClassName=HealcareSystem Member=Component CJMCU-30205 JP4
+Added Member To Class: ClassName=HealcareSystem Member=Component MAX30100 JP4
+Added Member To Class: ClassName=HealcareSystem Member=Component Pin+ JP1
+Added Member To Class: ClassName=HealcareSystem Member=Component Pin- JP1
+Added Room: Name=HealcareSystem
